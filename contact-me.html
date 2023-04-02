@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+    <link href="contact.css" rel="stylesheet">
+</head>
+<body>
+   <!-- navbar -->
+   <div style="border: 0px solid; background-color: rgb(71, 71, 71);">
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <img src="assest/logo.png" alt="logo" >
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#" style="font-weight: lighter;">My Project</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+    </div>
+    
+    <form action="#">
+        <div style="text-align: center;">
+            <h2>GET IN TOUCH</h2>
+        </div>
+        <div>
+          <label for="input-name">Name</label>
+          <input id="input-name" type="text">
+        </div>
+        <div>
+          <label for="input-email">Email</label>
+          <input id="input-email" type="email">
+        </div>
+        <div>
+          <label for="input-number">Phone Number</label>
+          <input id="input-number" type="number">
+        </div>
+        <div class="subject">
+          <label for="input-subject">Subject</label>
+          <select id="input-subject">
+              <option value="">Select</option>
+              <option value="Letstalk">Let's Talk</option>
+              <option value="Letscollaboration">Let's Collaboration</option>
+              <option value="Iamhiring">I'am Hiring</option>
+          </select>
+        </div>
+        <div>
+          <label for="input-message">Message</label>
+          <textarea name="" id="input-message" cols="30" rows="10" style="resize: none"></textarea>
+        </div>
+        <div style="text-align: end; width: 372px;" >
+          <button type="button" onclick="#">Submit</button>
+        </div>
+      </form>
+      <script src="form.js" ></script>
+    </body>
+  </html>
+</body>
+</html>
